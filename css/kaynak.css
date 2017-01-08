@@ -1,0 +1,137 @@
+@import_url(css/normalize.css);
+@font-face {
+    font-family: 'akrobatblack';
+    src: url('/font/akrobat-black.woff2') format('woff2'),
+         url('/font/akrobat-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'akrobatbold';
+    src: url('/font/akrobat-bold.woff2') format('woff2'),
+         url('/font/akrobat-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'akrobatextrabold';
+    src: url('/font/akrobat-extrabold.woff2') format('woff2'),
+         url('/font/akrobat-extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'akrobatextralight';
+    src: url('/font/akrobat-extralight.woff2') format('woff2'),
+         url('/font/akrobat-extralight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'akrobatlight';
+    src: url('/font/akrobat-light.woff2') format('woff2'),
+         url('/font/akrobat-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'akrobatregular';
+    src: url('/font/akrobat-regular.woff2') format('woff2'),
+         url('/font/akrobat-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'akrobatsemibold';
+    src: url('/font/akrobat-semibold.woff2') format('woff2'),
+         url('/font/akrobat-semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'akrobatthin';
+    src: url('/font/akrobat-thin.woff2') format('woff2'),
+         url('/font/akrobat-thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+	margin:0px;
+	padding:0px;
+	outline:0;
+	border:0px;
+}
+body{
+	background-image:url('/img/arkaplan.png');
+	background-repeat:no-repeat;
+	background-position:center center fixed;
+	background-size:cover;
+}
+.sonuc{
+	margin-top:150px;
+	background-color:white;
+	padding:15px;
+	font-family:akrobatbold;
+	color:black;
+}
+.number{
+	background-color:white;
+	font-family:akrobatbold;
+	margin-top:15px;
+	font-size:32px;
+		width:64px;
+	height:64px;
+	display:inline-block;
+}
+.number2{
+	background-color:white;
+	font-family:akrobatbold;
+	margin-top:15px;
+	font-size:32px;
+	display:inline-block;
+		width:64px;
+	height:64px;
+}
+.numara{
+	margin-top:25px;
+	
+}
+.islem{
+		background-color:lightgreen;
+	font-family:akrobatbold;
+	margin-top:15px;
+	color:black;
+	font-size:38px;
+	display:inline-block;
+	width:64px;
+	height:64px;
+}
+.islem2{
+		background-color:lightgreen;
+	font-family:akrobatbold;
+	margin-top:15px;
+	color:black;
+	font-size:38px;
+	display:inline-block;
+		width:256px;
+	height:64px;
+}
+.islem3{
+	display:none;
+}
+.temizle{
+			background-color:lightgreen;
+	font-family:akrobatbold;
+	color:black;
+	font-size:22px;
+	display:inline-block;
+	width:256px;
+	height:64px;
+}
